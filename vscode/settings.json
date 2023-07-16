@@ -1,0 +1,295 @@
+{
+    // ------------------
+    //  Editor behaviour
+    // ------------------
+    "editor.inlineSuggest.enabled": true,
+    "editor.formatOnSave": true,
+    "editor.cursorSurroundingLines": 16,
+    "workbench.editor.enablePreview": false,
+    // ----------------
+    //  File behaviour
+    // ----------------
+    "files.associations": {
+        "*.world": "xml"
+    },
+    // -------------------
+    //  Dialog suppresion
+    // -------------------
+    "workbench.startupEditor": "none",
+    "workbench.editor.untitled.hint": "hidden",
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "git.confirmSync": false,
+    // -------------
+    //  Vim related
+    // -------------
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingOvertype": "never",
+    "editor.autoClosingQuotes": "never",
+    "editor.autoClosingDelete": "never",
+    "editor.lineNumbers": "relative",
+    // -------------
+    //  Editor look
+    // -------------
+    "editor.fontSize": 13,
+    "editor.minimap.enabled": false,
+    "editor.lightbulb.enabled": false,
+    "editor.renderControlCharacters": false,
+    "editor.renderLineHighlightOnlyWhenFocus": true,
+    "editor.renderWhitespace": "none",
+    "editor.cursorBlinking": "phase",
+    "workbench.editor.decorations.colors": false,
+    // --------------
+    //  General look
+    // --------------
+    "window.title": "${appName}",
+    "window.titleSeparator": " | ",
+    "workbench.tips.enabled": false,
+    "workbench.tree.indent": 10,
+    "breadcrumbs.enabled": false,
+    "explorer.compactFolders": false,
+    "scm.diffDecorationsGutterVisibility": "hover",
+    // ---------------------
+    //  Color customization
+    // ---------------------
+    "workbench.colorCustomizations": {
+        // General
+        "focusBorder": "#627e62",
+        "textLink.foreground": "#6f8f6f",
+        "textLink.activeForeground": "#8ab18a",
+        "badge.background": "#6f8f6f",
+        "badge.foreground": "#ffffff",
+        "selection.background": "#4c604c",
+        "list.highlightForeground": "#627e62",
+        "list.focusHighlightForeground": "#8ab18a",
+        // Bars
+        "activityBarBadge.background": "#6f8f6f",
+        "activityBar.activeBorder": "#6f8f6f",
+        "statusBarItem.remoteBackground": "#6f8f6f",
+        // Tabs
+        "tab.activeBorderTop": "#6f8f6f",
+        "panelTitle.activeBorder": "#627e62",
+        // Buttons
+        "button.background": "#6f8f6f",
+        "button.hoverBackground": "#627e62",
+        "button.secondaryHoverBackground": "#627e62",
+        // Editor
+        "editor.foreground": "#cccccc",
+        "editor.selectionBackground": "#4c604c",
+        "editor.inactiveSelectionBackground": "#424242",
+        "editor.lineHighlightBackground": "#252525",
+        "editor.lineHighlightBorder": "#282828",
+        "editor.wordHighlightBackground": "#363636",
+        "editorLightBulb.foreground": "#727272",
+        "editorLineNumber.foreground": "#727272",
+        "editorSuggestWidget.highlightForeground": "#627e62",
+        "editorSuggestWidget.focusHighlightForeground": "#8ab18a",
+        "editor.foldBackground": "#323232",
+        "editorBracketHighlight.foreground1": "#bb8800",
+        "editorBracketHighlight.foreground2": "#b86230",
+        "editorBracketHighlight.foreground3": "#bb8800",
+        "editorBracketHighlight.foreground4": "#b86230",
+        "editorBracketHighlight.foreground5": "#bb8800",
+        // Terminal
+        "terminal.tab.activeBorder": "#696969",
+        "terminal.selectionBackground": "#3b423b",
+        "terminal.inactiveSelectionBackground": "#313131",
+        // Settings
+        "settings.modifiedItemIndicator": "#627e62",
+        // Stupid icons
+        "symbolIcon.arrayForeground": "#cccccc",
+        "symbolIcon.booleanForeground": "#cccccc",
+        "symbolIcon.classForeground": "#cccccc",
+        "symbolIcon.colorForeground": "#cccccc",
+        "symbolIcon.constantForeground": "#cccccc",
+        "symbolIcon.constructorForeground": "#cccccc",
+        "symbolIcon.enumeratorForeground": "#cccccc",
+        "symbolIcon.enumeratorMemberForeground": "#cccccc",
+        "symbolIcon.eventForeground": "#cccccc",
+        "symbolIcon.fieldForeground": "#cccccc",
+        "symbolIcon.fileForeground": "#cccccc",
+        "symbolIcon.folderForeground": "#cccccc",
+        "symbolIcon.functionForeground": "#cccccc",
+        "symbolIcon.interfaceForeground": "#cccccc",
+        "symbolIcon.keyForeground": "#cccccc",
+        "symbolIcon.keywordForeground": "#cccccc",
+        "symbolIcon.methodForeground": "#cccccc",
+        "symbolIcon.moduleForeground": "#cccccc",
+        "symbolIcon.namespaceForeground": "#cccccc",
+        "symbolIcon.nullForeground": "#cccccc",
+        "symbolIcon.numberForeground": "#cccccc",
+        "symbolIcon.objectForeground": "#cccccc",
+        "symbolIcon.operatorForeground": "#cccccc",
+        "symbolIcon.packageForeground": "#cccccc",
+        "symbolIcon.propertyForeground": "#cccccc",
+        "symbolIcon.referenceForeground": "#cccccc",
+        "symbolIcon.snippetForeground": "#cccccc",
+        "symbolIcon.stringForeground": "#cccccc",
+        "symbolIcon.structForeground": "#cccccc",
+        "symbolIcon.textForeground": "#cccccc",
+        "symbolIcon.typeParameterForeground": "#cccccc",
+        "symbolIcon.unitForeground": "#cccccc",
+        "symbolIcon.variableForeground": "#cccccc"
+    },
+    "editor.tokenColorCustomizations": {
+        "functions": "#d4bf86",
+        "variables": "#a8d4b5",
+        "types": "#779b5a",
+        "strings": "#ca845b",
+        "numbers": "#cccccc",
+        "comments": "#444444",
+        "keywords": "#c4a95e",
+        "textMateRules": [
+            {
+                "scope": "keyword.operator",
+                "settings": {
+                    "foreground": "#eeeeee"
+                }
+            },
+            {
+                "scope": "storage.modifier",
+                "settings": {
+                    "foreground": "#bbbbbb"
+                }
+            },
+            {
+                "scope": "storage.type",
+                "settings": {
+                    "foreground": "#779b5a"
+                }
+            },
+            {
+                "scope": "markup.heading",
+                "settings": {
+                    "foreground": "#66a166"
+                }
+            },
+            {
+                "scope": "markup.bold",
+                "settings": {
+                    "foreground": "#66a166"
+                }
+            },
+            {
+                "scope": "markup.underline",
+                "settings": {
+                    "foreground": "#66a166"
+                }
+            },
+            {
+                "scope": "markup.inline.raw",
+                "settings": {
+                    "foreground": "#ca845b"
+                }
+            },
+            {
+                "scope": "punctuation.definition.list.begin.markdown",
+                "settings": {
+                    "foreground": "#66a166"
+                }
+            },
+            {
+                "scope": "keyword.other.using",
+                "settings": {
+                    "foreground": "#c4a95e"
+                }
+            },
+            {
+                "scope": "keyword.operator.new",
+                "settings": {
+                    "foreground": "#c4a95e"
+                }
+            },
+            {
+                "scope": "keyword.operator.delete",
+                "settings": {
+                    "foreground": "#c4a95e"
+                }
+            },
+            {
+                "scope": "constant.language",
+                "settings": {
+                    "foreground": "#b86230"
+                }
+            },
+            {
+                "scope": "entity.other.attribute-name",
+                "settings": {
+                    "foreground": "#c4a95e"
+                }
+            },
+            {
+                "scope": "entity.name.function.preprocessor.cpp",
+                "settings": {
+                    "foreground": "#d4bf86"
+                }
+            },
+            {
+                "scope": "entity.name.scope-resolution",
+                "settings": {
+                    "foreground": "#779b5a"
+                }
+            },
+            {
+                "scope": "entity.name.namespace",
+                "settings": {
+                    "foreground": "#779b5a"
+                }
+            },
+            {
+                "scope": "keyword",
+                "settings": {
+                    "foreground": "#c4a95e"
+                }
+            },
+            {
+                "scope": "support.type.property-name",
+                "settings": {
+                    "foreground": "#a8d4b5"
+                }
+            },
+            {
+                "scope": "entity.name.tag",
+                "settings": {
+                    "foreground": "#a8d4b5"
+                }
+            },
+            {
+                "scope": "constant.other.option",
+                "settings": {
+                    "foreground": "#cccccc"
+                }
+            }
+        ]
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "rules": {
+            "namespace": "#779b5a",
+            "selfParameter": "#bb9988",
+            "builtinConstant": "#eeeeee",
+            "module": "#779b5a",
+            "enumMember": "#75be8b",
+            "newOperator": "#c4a95e"
+        }
+    },
+    // --------------------
+    //  Icon customization
+    // --------------------
+    "workbench.iconTheme": "chalice-icon-theme",
+    "chaliceIcons.showArrows": true,
+    "workbench.editor.showIcons": false,
+    "workbench.tree.renderIndentGuides": "onHover",
+    // --------
+    //  Matlab
+    // --------
+    "matlab.mlintpath": "/usr/local/MATLAB/R2022b/bin/glnxa64/mlint",
+    "matlab.matlabpath": "/usr/local/MATLAB/R2022b/bin/matlab",
+    // -----
+    //  C++
+    // -----
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "C_Cpp.clang_format_fallbackStyle": "{   \"Language\": \"Cpp\",   \"AccessModifierOffset\": -2,   \"AlignAfterOpenBracket\": \"Align\",   \"AlignConsecutiveMacros\": false,   \"AlignConsecutiveAssignments\": false,   \"AlignConsecutiveDeclarations\": false,   \"AlignEscapedNewlines\": \"Right\",   \"AlignOperands\": true,   \"AlignTrailingComments\": true,   \"AllowAllArgumentsOnNextLine\": true,   \"AllowAllConstructorInitializersOnNextLine\": true,   \"AllowAllParametersOfDeclarationOnNextLine\": true,   \"AllowShortBlocksOnASingleLine\": \"Never\",   \"AllowShortCaseLabelsOnASingleLine\": false,   \"AllowShortFunctionsOnASingleLine\": \"All\",   \"AllowShortLambdasOnASingleLine\": \"All\",   \"AllowShortIfStatementsOnASingleLine\": \"Never\",   \"AllowShortLoopsOnASingleLine\": false,   \"AlwaysBreakAfterDefinitionReturnType\": \"None\",   \"AlwaysBreakAfterReturnType\": \"None\",   \"AlwaysBreakBeforeMultilineStrings\": false,   \"AlwaysBreakTemplateDeclarations\": \"MultiLine\",   \"BinPackArguments\": true,   \"BinPackParameters\": true,   \"BraceWrapping\": {     \"AfterCaseLabel\": false,     \"AfterClass\": false,     \"AfterControlStatement\": false,     \"AfterEnum\": false,     \"AfterFunction\": false,     \"AfterNamespace\": false,     \"AfterObjCDeclaration\": false,     \"AfterStruct\": false,     \"AfterUnion\": false,     \"AfterExternBlock\": false,     \"BeforeCatch\": false,     \"BeforeElse\": false,     \"IndentBraces\": false,     \"SplitEmptyFunction\": true,     \"SplitEmptyRecord\": true,     \"SplitEmptyNamespace\": true   },   \"BreakBeforeBinaryOperators\": \"None\",   \"BreakBeforeBraces\": \"Attach\",   \"BreakBeforeInheritanceComma\": false,   \"BreakInheritanceList\": \"BeforeColon\",   \"BreakBeforeTernaryOperators\": true,   \"BreakConstructorInitializersBeforeComma\": false,   \"BreakConstructorInitializers\": \"BeforeColon\",   \"BreakAfterJavaFieldAnnotations\": false,   \"BreakStringLiterals\": true,   \"ColumnLimit\": 80,   \"CommentPragmas\": \"^ IWYU pragma:\",   \"CompactNamespaces\": false,   \"ConstructorInitializerAllOnOneLineOrOnePerLine\": false,   \"ConstructorInitializerIndentWidth\": 4,   \"ContinuationIndentWidth\": 4,   \"Cpp11BracedListStyle\": true,   \"DeriveLineEnding\": true,   \"DerivePointerAlignment\": false,   \"DisableFormat\": false,   \"ExperimentalAutoDetectBinPacking\": false,   \"FixNamespaceComments\": true,   \"ForEachMacros\": [     \"foreach\",     \"Q_FOREACH\",     \"BOOST_FOREACH\"   ],   \"IncludeBlocks\": \"Preserve\",   \"IncludeCategories\": [     {       \"Regex\": \"^\\\"(llvm|llvm-c|clang|clang-c)/\",       \"Priority\": 2,       \"SortPriority\": 0     },     {       \"Regex\": \"^(<|\\\"(gtest|gmock|isl|json)/)\",       \"Priority\": 3,       \"SortPriority\": 0     },     {       \"Regex\": \".*\",       \"Priority\": 1,       \"SortPriority\": 0     }   ],   \"IncludeIsMainRegex\": \"(Test)?$\",   \"IncludeIsMainSourceRegex\": \"\",   \"IndentCaseLabels\": false,   \"IndentGotoLabels\": true,   \"IndentPPDirectives\": \"None\",   \"IndentWidth\": 4,   \"IndentWrappedFunctionNames\": false,   \"JavaScriptQuotes\": \"Leave\",   \"JavaScriptWrapImports\": true,   \"KeepEmptyLinesAtTheStartOfBlocks\": true,   \"MacroBlockBegin\": \"\",   \"MacroBlockEnd\": \"\",   \"MaxEmptyLinesToKeep\": 1,   \"NamespaceIndentation\": \"None\",   \"ObjCBinPackProtocolList\": \"Auto\",   \"ObjCBlockIndentWidth\": 2,   \"ObjCSpaceAfterProperty\": false,   \"ObjCSpaceBeforeProtocolList\": true,   \"PenaltyBreakAssignment\": 2,   \"PenaltyBreakBeforeFirstCallParameter\": 19,   \"PenaltyBreakComment\": 300,   \"PenaltyBreakFirstLessLess\": 120,   \"PenaltyBreakString\": 1000,   \"PenaltyBreakTemplateDeclaration\": 10,   \"PenaltyExcessCharacter\": 1000000,   \"PenaltyReturnTypeOnItsOwnLine\": 60,   \"PointerAlignment\": \"Left\",   \"ReflowComments\": true,   \"SortIncludes\": true,   \"SortUsingDeclarations\": true,   \"SpaceAfterCStyleCast\": false,   \"SpaceAfterLogicalNot\": false,   \"SpaceAfterTemplateKeyword\": true,   \"SpaceBeforeAssignmentOperators\": true,   \"SpaceBeforeCpp11BracedList\": false,   \"SpaceBeforeCtorInitializerColon\": true,   \"SpaceBeforeInheritanceColon\": true,   \"SpaceBeforeParens\": \"ControlStatements\",   \"SpaceBeforeRangeBasedForLoopColon\": true,   \"SpaceInEmptyBlock\": false,   \"SpaceInEmptyParentheses\": false,   \"SpacesBeforeTrailingComments\": 1,   \"SpacesInAngles\": false,   \"SpacesInConditionalStatement\": false,   \"SpacesInContainerLiterals\": true,   \"SpacesInCStyleCastParentheses\": false,   \"SpacesInParentheses\": false,   \"SpacesInSquareBrackets\": false,   \"SpaceBeforeSquareBrackets\": false,   \"Standard\": \"Latest\",   \"StatementMacros\": [     \"Q_UNUSED\",     \"QT_REQUIRE_VERSION\"   ],   \"TabWidth\": 8,   \"UseCRLF\": false,   \"UseTab\": \"Never\" }",
+}
