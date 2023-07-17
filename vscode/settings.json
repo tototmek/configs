@@ -6,6 +6,7 @@
     "editor.formatOnSave": true,
     "editor.cursorSurroundingLines": 16,
     "workbench.editor.enablePreview": false,
+    "workbench.editor.centeredLayoutFixedWidth": true,
     // ----------------
     //  File behaviour
     // ----------------
