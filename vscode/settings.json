@@ -270,6 +270,18 @@
                 "settings": {
                     "foreground": "#c4a95e"
                 }
+            },
+            {
+                "scope": "variable.language",
+                "settings": {
+                    "foreground": "#cccccc"
+                }
+            },
+            {
+                "scope": "keyword.operator.cast",
+                "settings": {
+                    "foreground": "#d4bf86"
+                }
             }
         ]
     },
