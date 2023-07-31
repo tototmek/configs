@@ -357,7 +357,6 @@
         },
         "status": {
             "visibility": "compact"
-        },
-    },
-    "cmake.revealLog": "never",
+        }
+    }
 }
