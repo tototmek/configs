@@ -5,7 +5,7 @@
     "editor.inlineSuggest.enabled": true,
     "editor.formatOnSave": true,
     "editor.cursorSurroundingLines": 16,
-    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreview": true,
     "workbench.editor.centeredLayoutFixedWidth": true,
     "editor.wordWrap": "on",
     // ----------------
@@ -35,8 +35,7 @@
     // -------------
     //  Editor look
     // -------------
-    "editor.fontSize": 13,
-    "editor.minimap.enabled": false,
+    "editor.fontSize": 12,
     "editor.lightbulb.enabled": false,
     "editor.renderControlCharacters": false,
     "editor.renderLineHighlightOnlyWhenFocus": true,
@@ -89,6 +88,8 @@
         "editorSuggestWidget.highlightForeground": "#627e62",
         "editorSuggestWidget.focusHighlightForeground": "#8ab18a",
         "editor.foldBackground": "#323232",
+        "editorIndentGuide.activeBackground": "#505050",
+        "editorIndentGuide.background": "#313131",
         "editorBracketHighlight.foreground1": "#bb8800",
         "editorBracketHighlight.foreground2": "#b86230",
         "editorBracketHighlight.foreground3": "#bb8800",
@@ -101,6 +102,9 @@
         // Settings
         "settings.modifiedItemIndicator": "#627e62",
         "extensionIcon.starForeground": "#aaaaaa",
+        // Notifications
+        "notificationsInfoIcon.foreground": "#6f8f6f",
+        "progressBar.background": "#6f8f6f",
         // Stupid icons
         "symbolIcon.arrayForeground": "#cccccc",
         "symbolIcon.booleanForeground": "#cccccc",
@@ -315,4 +319,45 @@
     },
     "C_Cpp.clang_format_fallbackStyle": "{   \"Language\": \"Cpp\",   \"AccessModifierOffset\": -2,   \"AlignAfterOpenBracket\": \"Align\",   \"AlignConsecutiveMacros\": false,   \"AlignConsecutiveAssignments\": false,   \"AlignConsecutiveDeclarations\": false,   \"AlignEscapedNewlines\": \"Right\",   \"AlignOperands\": true,   \"AlignTrailingComments\": true,   \"AllowAllArgumentsOnNextLine\": true,   \"AllowAllConstructorInitializersOnNextLine\": true,   \"AllowAllParametersOfDeclarationOnNextLine\": true,   \"AllowShortBlocksOnASingleLine\": \"Never\",   \"AllowShortCaseLabelsOnASingleLine\": false,   \"AllowShortFunctionsOnASingleLine\": \"All\",   \"AllowShortLambdasOnASingleLine\": \"All\",   \"AllowShortIfStatementsOnASingleLine\": \"Never\",   \"AllowShortLoopsOnASingleLine\": false,   \"AlwaysBreakAfterDefinitionReturnType\": \"None\",   \"AlwaysBreakAfterReturnType\": \"None\",   \"AlwaysBreakBeforeMultilineStrings\": false,   \"AlwaysBreakTemplateDeclarations\": \"MultiLine\",   \"BinPackArguments\": true,   \"BinPackParameters\": true,   \"BraceWrapping\": {     \"AfterCaseLabel\": false,     \"AfterClass\": false,     \"AfterControlStatement\": false,     \"AfterEnum\": false,     \"AfterFunction\": false,     \"AfterNamespace\": false,     \"AfterObjCDeclaration\": false,     \"AfterStruct\": false,     \"AfterUnion\": false,     \"AfterExternBlock\": false,     \"BeforeCatch\": false,     \"BeforeElse\": false,     \"IndentBraces\": false,     \"SplitEmptyFunction\": true,     \"SplitEmptyRecord\": true,     \"SplitEmptyNamespace\": true   },   \"BreakBeforeBinaryOperators\": \"None\",   \"BreakBeforeBraces\": \"Attach\",   \"BreakBeforeInheritanceComma\": false,   \"BreakInheritanceList\": \"BeforeColon\",   \"BreakBeforeTernaryOperators\": true,   \"BreakConstructorInitializersBeforeComma\": false,   \"BreakConstructorInitializers\": \"BeforeColon\",   \"BreakAfterJavaFieldAnnotations\": false,   \"BreakStringLiterals\": true,   \"ColumnLimit\": 80,   \"CommentPragmas\": \"^ IWYU pragma:\",   \"CompactNamespaces\": false,   \"ConstructorInitializerAllOnOneLineOrOnePerLine\": false,   \"ConstructorInitializerIndentWidth\": 4,   \"ContinuationIndentWidth\": 4,   \"Cpp11BracedListStyle\": true,   \"DeriveLineEnding\": true,   \"DerivePointerAlignment\": false,   \"DisableFormat\": false,   \"ExperimentalAutoDetectBinPacking\": false,   \"FixNamespaceComments\": true,   \"ForEachMacros\": [     \"foreach\",     \"Q_FOREACH\",     \"BOOST_FOREACH\"   ],   \"IncludeBlocks\": \"Preserve\",   \"IncludeCategories\": [     {       \"Regex\": \"^\\\"(llvm|llvm-c|clang|clang-c)/\",       \"Priority\": 2,       \"SortPriority\": 0     },     {       \"Regex\": \"^(<|\\\"(gtest|gmock|isl|json)/)\",       \"Priority\": 3,       \"SortPriority\": 0     },     {       \"Regex\": \".*\",       \"Priority\": 1,       \"SortPriority\": 0     }   ],   \"IncludeIsMainRegex\": \"(Test)?$\",   \"IncludeIsMainSourceRegex\": \"\",   \"IndentCaseLabels\": false,   \"IndentGotoLabels\": true,   \"IndentPPDirectives\": \"None\",   \"IndentWidth\": 4,   \"IndentWrappedFunctionNames\": false,   \"JavaScriptQuotes\": \"Leave\",   \"JavaScriptWrapImports\": true,   \"KeepEmptyLinesAtTheStartOfBlocks\": true,   \"MacroBlockBegin\": \"\",   \"MacroBlockEnd\": \"\",   \"MaxEmptyLinesToKeep\": 1,   \"NamespaceIndentation\": \"None\",   \"ObjCBinPackProtocolList\": \"Auto\",   \"ObjCBlockIndentWidth\": 2,   \"ObjCSpaceAfterProperty\": false,   \"ObjCSpaceBeforeProtocolList\": true,   \"PenaltyBreakAssignment\": 2,   \"PenaltyBreakBeforeFirstCallParameter\": 19,   \"PenaltyBreakComment\": 300,   \"PenaltyBreakFirstLessLess\": 120,   \"PenaltyBreakString\": 1000,   \"PenaltyBreakTemplateDeclaration\": 10,   \"PenaltyExcessCharacter\": 1000000,   \"PenaltyReturnTypeOnItsOwnLine\": 60,   \"PointerAlignment\": \"Left\",   \"ReflowComments\": true,   \"SortIncludes\": true,   \"SortUsingDeclarations\": true,   \"SpaceAfterCStyleCast\": false,   \"SpaceAfterLogicalNot\": false,   \"SpaceAfterTemplateKeyword\": true,   \"SpaceBeforeAssignmentOperators\": true,   \"SpaceBeforeCpp11BracedList\": false,   \"SpaceBeforeCtorInitializerColon\": true,   \"SpaceBeforeInheritanceColon\": true,   \"SpaceBeforeParens\": \"ControlStatements\",   \"SpaceBeforeRangeBasedForLoopColon\": true,   \"SpaceInEmptyBlock\": false,   \"SpaceInEmptyParentheses\": false,   \"SpacesBeforeTrailingComments\": 1,   \"SpacesInAngles\": false,   \"SpacesInConditionalStatement\": false,   \"SpacesInContainerLiterals\": true,   \"SpacesInCStyleCastParentheses\": false,   \"SpacesInParentheses\": false,   \"SpacesInSquareBrackets\": false,   \"SpaceBeforeSquareBrackets\": false,   \"Standard\": \"Latest\",   \"StatementMacros\": [     \"Q_UNUSED\",     \"QT_REQUIRE_VERSION\"   ],   \"TabWidth\": 8,   \"UseCRLF\": false,   \"UseTab\": \"Never\" }",
     "C_Cpp.clang_format_path": "/usr/bin/clang-format-12",
+    "C_Cpp.default.cppStandard": "c++17",
+    "editor.minimap.enabled": false,
+    "cmake.statusbar.advanced": {
+        "build": {
+            "visibility": "hidden"
+        },
+        "launch": {
+            "visibility": "hidden"
+        },
+        "debug": {
+            "visibility": "hidden"
+        },
+        "ctest": {
+            "visibility": "hidden"
+        },
+        "buildTarget": {
+            "visibility": "compact"
+        },
+        "launchTarget": {
+            "visibility": "hidden"
+        },
+        "buildPreset": {
+            "visibility": "hidden"
+        },
+        "testPreset": {
+            "visibility": "hidden"
+        },
+        "configurePreset": {
+            "visibility": "hidden"
+        },
+        "kit": {
+            "visibility": "hidden"
+        },
+        "workspace": {
+            "visibility": "hidden"
+        },
+        "status": {
+            "visibility": "compact"
+        },
+    },
+    "cmake.revealLog": "never",
 }
