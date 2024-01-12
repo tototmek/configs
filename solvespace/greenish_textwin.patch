@@ -12,33 +12,33 @@
 <     { 'b', RGBi(200, 200, 200) },
 <     { 0,   RGBi(  0,   0,   0) }
 ---
->     { 'd', RGBi(100, 100, 100) },  // Default   : white
->     { 'l', RGBi(30, 102, 245) },  // links     : blue
->     { 't', RGBi(223, 142, 29) },  // tree/text : yellow
+>     { 'd', RGBi(140, 140, 140) },  // Default   : white
+>     { 'l', RGBi(84, 138, 97) },  // links     : blue
+>     { 't', RGBi(200, 200, 200) },  // tree/text : yellow
 >     { 'h', RGBi(255, 255, 0) },
->     { 's', RGBi(64, 160, 43) },  // Ok        : green
->     { 'm', RGBi(223, 142, 29) },
+>     { 's', RGBi(88, 145, 60) },  // Ok        : green
+>     { 'm', RGBi(200, 200, 200) },
 >     { 'r', RGBi(0, 255, 0) },  // Reverse   : black
->     { 'x', RGBi(210, 15, 57) },  // Error     : red
->     { 'i', RGBi(4, 165, 229) },  // Info      : cyan
+>     { 'x', RGBi(100, 0, 100) },  // Error     : red
+>     { 'i', RGBi(145, 77, 60) },  // Info      : cyan
 >     { 'g', RGBi(255, 255, 0) },  // Disabled  : gray
 >     { 'b', RGBi(115, 115, 115) },
->     { 0,   RGBi(0, 0, 0) }
+>     { 0,   RGBi(21, 21, 21) }
 213,216c213,216
 <     { 'd', RGBi(  0,   0,   0) },  // Default   : black
 <     { 't', RGBi( 34,  15,  15) },
 <     { 'a', RGBi( 25,  25,  25) },  // Alternate : dark gray
 <     { 'r', RGBi(255, 255, 255) },  // Reverse   : white
 ---
->     { 'd', RGBi(0, 0, 0) },  // Default   : black
->     { 't', RGBi(255, 0, 255) },
->     { 'a', RGBi(0, 0, 255) },  // Alternate : dark gray
->     { 'r', RGBi(100, 100, 100) },  // Reverse   : white
+>     { 'd', RGBi(21, 21, 21) },  // Default   : black
+>     { 't', RGBi(42, 42, 42) },
+>     { 'a', RGBi(28, 28, 28) },  // Alternate : dark gray
+>     { 'r', RGBi(140, 140, 140) },  // Reverse   : white
 621c621
 <                            /*fillColor=*/{ 30, 30, 30, 255 }, /*outlineColor=*/{});
 ---
->                            /*fillColor=*/{ 0, 0, 255, 255 }, /*outlineColor=*/{});
+>                            /*fillColor=*/{ 28, 28, 28, 255 }, /*outlineColor=*/{});
 951c951
 <     lighting.backgroundColor = RGBi(0, 0, 0);
 ---
->     lighting.backgroundColor = RGBi(0, 0, 0);
+>     lighting.backgroundColor = RGBi(21, 21, 21);
