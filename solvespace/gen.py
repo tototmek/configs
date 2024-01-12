@@ -64,8 +64,8 @@ toolbar_template = """183c183
 >                                  /*fillColor=*/{ #yellow#, 75 },
 """
 
-with urllib.request.urlopen('https://raw.githubusercontent.com/catppuccin/palette/v0.2.0/palette.json') as f:
-  data = f.read().decode('utf-8')
+with open("pallette.json", "r") as f:
+  data = f.read()
   colors = json.loads(data)
 
   for theme in colors:
