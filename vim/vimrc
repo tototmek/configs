@@ -5,3 +5,4 @@ set shiftwidth=4
 set autoindent
 colorscheme default
 set hlsearch
+set mouse=a
