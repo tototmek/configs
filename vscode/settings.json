@@ -18,7 +18,6 @@
     //  Dialog suppresion
     // -------------------
     "workbench.startupEditor": "none",
-    "workbench.editor.untitled.hint": "hidden",
     "security.workspace.trust.untrustedFiles": "open",
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
@@ -138,7 +137,7 @@
         "symbolIcon.textForeground": "#cccccc",
         "symbolIcon.typeParameterForeground": "#cccccc",
         "symbolIcon.unitForeground": "#cccccc",
-        "symbolIcon.variableForeground": "#cccccc"
+        "symbolIcon.variableForeground": "#cccccc",
     },
     "editor.tokenColorCustomizations": {
         "functions": "#d4bf86",
@@ -293,10 +292,13 @@
         "rules": {
             "namespace": "#779b5a",
             "selfParameter": "#bb9988",
+            "variable": "#a8d4b5",
             "builtinConstant": "#eeeeee",
             "module": "#779b5a",
             "enumMember": "#75be8b",
-            "newOperator": "#c4a95e"
+            "newOperator": "#c4a95e",
+            "macro": "#d4bf86",
+            "formatSpecifier": "#cccccc"
         }
     },
     // --------------------
@@ -358,5 +360,9 @@
         "status": {
             "visibility": "compact"
         }
-    }
+    },
+    "workbench.editor.empty.hint": "hidden",
+    "window.zoomLevel": 1,
+    "rust-analyzer.lens.enable": false,
+    "rust-analyzer.inlayHints.typeHints.enable": false
 }
