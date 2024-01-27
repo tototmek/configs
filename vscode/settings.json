@@ -8,6 +8,7 @@
     "workbench.editor.enablePreview": true,
     "workbench.editor.centeredLayoutFixedWidth": true,
     "editor.wordWrap": "on",
+    "window.restoreFullscreen": true,
     // ----------------
     //  File behaviour
     // ----------------
@@ -51,6 +52,10 @@
     "breadcrumbs.enabled": false,
     "explorer.compactFolders": false,
     "scm.diffDecorationsGutterVisibility": "hover",
+    "git.decorations.enabled": false,
+    "git.enabled": false,
+    "workbench.editor.empty.hint": "hidden",
+    "window.zoomLevel": 1,
     // ---------------------
     //  Color customization
     // ---------------------
@@ -137,7 +142,7 @@
         "symbolIcon.textForeground": "#cccccc",
         "symbolIcon.typeParameterForeground": "#cccccc",
         "symbolIcon.unitForeground": "#cccccc",
-        "symbolIcon.variableForeground": "#cccccc",
+        "symbolIcon.variableForeground": "#cccccc"
     },
     "editor.tokenColorCustomizations": {
         "functions": "#d4bf86",
@@ -361,8 +366,9 @@
             "visibility": "compact"
         }
     },
-    "workbench.editor.empty.hint": "hidden",
-    "window.zoomLevel": 1,
+    // ------
+    //  Rust
+    // ------
     "rust-analyzer.lens.enable": false,
     "rust-analyzer.inlayHints.typeHints.enable": false
 }
