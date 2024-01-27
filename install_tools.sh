@@ -1,6 +1,6 @@
 # Install basic programs
 sudo apt update
-sudo apt install vim ranger
+sudo apt install vim ranger git
 
 # Install vscode
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
