@@ -37,13 +37,18 @@
     // -------------
     //  Editor look
     // -------------
-    "editor.fontSize": 12,
+    "editor.fontSize": 14,
     "editor.lightbulb.enabled": false,
     "editor.renderControlCharacters": false,
     "editor.renderLineHighlightOnlyWhenFocus": true,
     "editor.renderWhitespace": "none",
     "editor.cursorBlinking": "phase",
     "workbench.editor.decorations.colors": false,
+    // ---------------
+    //  Terminal look
+    // ---------------
+    "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+    "terminal.integrated.fontSize": 13,
     // --------------
     //  General look
     // --------------
@@ -52,12 +57,14 @@
     "workbench.tips.enabled": false,
     "workbench.tree.indent": 10,
     "breadcrumbs.enabled": false,
+    "problems.decorations.enabled": false,
     "explorer.compactFolders": false,
+    "explorer.decorations.badges": false,
+    "explorer.decorations.colors": false,
     "scm.diffDecorationsGutterVisibility": "hover",
     "git.decorations.enabled": false,
     "git.enabled": false,
     "workbench.editor.empty.hint": "hidden",
-    "window.zoomLevel": 1,
     // ---------------------
     //  Color customization
     // ---------------------
@@ -71,6 +78,8 @@
         "selection.background": "#4c604c",
         "list.highlightForeground": "#627e62",
         "list.focusHighlightForeground": "#8ab18a",
+        "list.activeSelectionBackground": "#252525",
+        "list.inactiveSelectionBackground": "#252525",
         // Bars
         "activityBarBadge.background": "#6f8f6f",
         "activityBar.activeBorder": "#6f8f6f",
@@ -105,6 +114,23 @@
         "terminal.tab.activeBorder": "#696969",
         "terminal.selectionBackground": "#3b423b",
         "terminal.inactiveSelectionBackground": "#313131",
+        "terminal.ansiBlack": "#313131",
+        "terminal.ansiBlue": "#5a5e62",
+        "terminal.ansiBrightBlack": "#313131",
+        "terminal.ansiBrightBlue": "#44474a",
+        "terminal.ansiBrightCyan": "#778385",
+        "terminal.ansiBrightGreen": "#afb97a",
+        "terminal.ansiBrightMagenta": "#b4be7c",
+        "terminal.ansiBrightRed": "#c06d44",
+        "terminal.ansiBrightWhite": "#ffffd4",
+        "terminal.ansiBrightYellow": "#c2a86c",
+        "terminal.ansiCyan": "#8a989b",
+        "terminal.ansiGreen": "#ccd88c",
+        "terminal.ansiMagenta": "#d0dc8e",
+        "terminal.ansiRed": "#de7c4c",
+        "terminal.ansiWhite": "#ffffd4",
+        "terminal.ansiYellow": "#e2c47e",
+        "terminal.background": "#121212",
         // Settings
         "settings.modifiedItemIndicator": "#627e62",
         "extensionIcon.starForeground": "#aaaaaa",
@@ -372,5 +398,5 @@
     //  Rust
     // ------
     "rust-analyzer.lens.enable": false,
-    "rust-analyzer.inlayHints.typeHints.enable": false
+    "rust-analyzer.inlayHints.typeHints.enable": false,
 }
