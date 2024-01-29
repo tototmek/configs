@@ -324,6 +324,7 @@
     "editor.semanticTokenColorCustomizations": {
         "rules": {
             "namespace": "#779b5a",
+            "operator": "#eeeeee",
             "selfParameter": "#bb9988",
             "variable": "#a8d4b5",
             "builtinConstant": "#eeeeee",
@@ -331,7 +332,11 @@
             "enumMember": "#75be8b",
             "newOperator": "#c4a95e",
             "macro": "#d4bf86",
-            "formatSpecifier": "#cccccc"
+            "method": "#d4bf86",
+            "formatSpecifier": "#cccccc",
+            "*.mutable": {
+                "underline": false
+            },
         }
     },
     // --------------------
