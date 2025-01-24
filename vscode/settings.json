@@ -13,7 +13,8 @@
     //  File behaviour
     // ----------------
     "files.associations": {
-        "*.world": "xml"
+        "*.world": "xml",
+        "*.urdf.xacro": "xml"
     },
     // -------------------
     //  Dialog suppresion
@@ -34,11 +35,12 @@
     "editor.autoClosingDelete": "never",
     "editor.lineNumbers": "relative",
     "vim.useSystemClipboard": true,
+    "vim.showmodename": false,
     // -------------
     //  Editor look
     // -------------
     "editor.fontSize": 14,
-    "editor.lightbulb.enabled": false,
+    "editor.lightbulb.enabled": "off",
     "editor.renderControlCharacters": false,
     "editor.renderLineHighlightOnlyWhenFocus": true,
     "editor.renderWhitespace": "none",
@@ -110,6 +112,18 @@
         "editorBracketHighlight.foreground3": "#bb8800",
         "editorBracketHighlight.foreground4": "#b86230",
         "editorBracketHighlight.foreground5": "#bb8800",
+        // Diff
+        "diffEditor.removedLineBackground": "#00000000",
+        "diffEditor.removedTextBackground": "#00000000",
+        "diffEditor.insertedLineBackground": "#00000000",
+        "diffEditor.insertedTextBackground": "#00000000",
+        "diffEditor.diagonalFill": "#282828",
+        "diffEditor.border": "#282828",
+        "diffEditor.unchangedRegionBackground": "#00000000",
+        "diffEditor.unchangedRegionShadow": "#424242",
+        "diffEditor.unchangedRegionForeground": "#727272",
+        "diffEditorGutter.insertedLineBackground": "#3c910a2c",
+        "diffEditorGutter.removedLineBackground": "#a81d0428",
         // Terminal
         "terminal.tab.activeBorder": "#696969",
         "terminal.selectionBackground": "#3b423b",
@@ -170,7 +184,7 @@
         "symbolIcon.textForeground": "#cccccc",
         "symbolIcon.typeParameterForeground": "#cccccc",
         "symbolIcon.unitForeground": "#cccccc",
-        "symbolIcon.variableForeground": "#cccccc"
+        "symbolIcon.variableForeground": "#cccccc",
     },
     "editor.tokenColorCustomizations": {
         "functions": "#d4bf86",
@@ -327,6 +341,7 @@
             "operator": "#eeeeee",
             "selfParameter": "#bb9988",
             "variable": "#a8d4b5",
+            "parameter": "#a8d4b5",
             "builtinConstant": "#eeeeee",
             "module": "#779b5a",
             "enumMember": "#75be8b",
@@ -408,4 +423,30 @@
     "rust-analyzer.inlayHints.closingBraceHints.enable": false,
     "rust-analyzer.inlayHints.parameterHints.enable": false,
     "rust-analyzer.inlayHints.renderColons": false,
+    // --------
+    //  Python
+    // --------
+    "python.defaultInterpreterPath": "/usr/bin/python",
+    "black-formatter.args": [
+        "--line-length",
+        "120"
+    ],
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "always",
+        },
+    },
+    // ---------
+    //  Various
+    // ---------
+    "cmake.showOptionsMovedNotification": false,
+    "platformio-ide.autoOpenPlatformIOIniFile": false,
+    "extensions.ignoreRecommendations": true,
+    "cmake.configureOnOpen": false,
+    "jupyter.askForKernelRestart": false,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "html.autoCreateQuotes": false,
+    "html.autoClosingTags": false,
+    "explorer.confirmPasteNative": false,
 }
